@@ -1,0 +1,201 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  
+  google_fonts: ^4.0.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  speech_to_text: ^6.3.0
+  avatar_glow: ^2.0.2 
+  cupertino_icons: ^1.0.5
+  intl: ^0.17.0
+  path_provider: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launch_icon"
+  ios: true
+  image_path: "asset/icons/launch_icon.png"
+  remove_alpha_ios: true
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/line-regular.png
+    - assets/page-1/images/signal.png
+    - assets/page-1/images/arrow-search.png
+    - assets/page-1/images/battery-full.png
+    - assets/page-1/images/line-regular-Wp1.png
+    - assets/page-1/images/battery-full-yLm.png
+    - assets/page-1/images/email.png
+    - assets/page-1/images/line-regular-jQD.png
+    - assets/page-1/images/arrow-search-t65.png
+    - assets/page-1/images/line-regular-M2q.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/line-regular-fuB.png
+    - assets/page-1/images/wifi-zHo.png
+    - assets/page-1/images/line-regular-Ejj.png
+    - assets/page-1/images/line-regular-6X3.png
+    - assets/page-1/images/vector-GEV.png
+    - assets/page-1/images/arrow-search-aky.png
+    - assets/page-1/images/vector-Bgm.png
+    - assets/page-1/images/signal-RLD.png
+    - assets/page-1/images/battery-full-YLH.png
+    - assets/page-1/images/permidentity.png
+    - assets/page-1/images/wifi-Hny.png
+    - assets/page-1/images/wifi-Pwo.png
+    - assets/page-1/images/wifi-y2q.png
+    - assets/page-1/images/vector-BJZ.png
+    - assets/page-1/images/battery-full-Ru3.png
+    - assets/page-1/images/signal-xKs.png
+    - assets/page-1/images/battery-full-C73.png
+    - assets/page-1/images/vector-zdo.png
+    - assets/page-1/images/signal-Smw.png
+    - assets/page-1/images/battery-full-RLM.png
+    - assets/page-1/images/lock.png
+    - assets/page-1/images/wifi-qSZ.png
+    - assets/page-1/images/vector-xZ7.png
+    - assets/page-1/images/vector-qN1.png
+    - assets/page-1/images/arrow-search-Bs7.png
+    - assets/page-1/images/wifi-MkD.png
+    - assets/page-1/images/arrow-search-Ufb.png
+    - assets/page-1/images/line-regular-trM.png
+    - assets/page-1/images/line-regular-XPX.png
+    - assets/page-1/images/account.png
+    - assets/page-1/images/line-regular-Sos.png
+    - assets/page-1/images/vector-bgm.png
+    - assets/page-1/images/lock-RQu.png
+    - assets/page-1/images/wifi-32H.png
+    - assets/page-1/images/arrow-search-N73.png
+    - assets/page-1/images/signal-P3P.png
+    - assets/page-1/images/lock-open.png
+    - assets/page-1/images/signal-6j3.png
+    - assets/page-1/images/battery-full-Pi9.png
+    - assets/page-1/images/battery-full-9Cm.png
+    - assets/page-1/images/signal-CMP.png
+    - assets/page-1/images/vector-Ba1.png
+    - assets/page-1/images/logomakr-7nheie-2.png
+    - assets/page-1/images/email-zQH.png
+    - assets/page-1/images/logomakr-7nheie-1.png
+    - assets/page-1/images/vector-sXF.png
+    - assets/page-1/images/logomakr-7nheie-2-wBX.png
+    - assets/page-1/images/wifi-Smo.png
+    - assets/page-1/images/logomakr-7nheie-1-TcM.png
+    - assets/page-1/images/battery-full-WZF.png
+    - assets/page-1/images/signal-hn9.png
+    - assets/page-1/images/arrow-search-2Y9.png
+    - assets/page-1/images/arrow-search-Qrm.png
+    - assets/page-1/images/logomakr-7nheie-1-LhF.png
+    - assets/page-1/images/vector-92R.png
+    - assets/page-1/images/logomakr-7nheie-1-fey.png
+    - assets/page-1/images/logomakr-7nheie-2-BNq.png
+    - assets/page-1/images/logomakr-7nheie-1-7hj.png
+    - assets/page-1/images/logomakr-7nheie-1-cp9.png
+    - assets/page-1/images/logomakr-7nheie-3.png
+    - assets/page-1/images/signal-BGu.png
+    - assets/page-1/images/battery-full-zGH.png
+    - assets/page-1/images/logomakr-7nheie-2-ozR.png
+    - assets/page-1/images/logomakr-7nheie-1-zZf.png
+    - assets/page-1/images/logomakr-7nheie-1-r3B.png
+    - assets/page-1/images/logomakr-7nheie-1-azm.png
+    - assets/page-1/images/arrow-search-Lpq.png
+    - assets/page-1/images/signal-69f.png
+    - assets/page-1/images/battery-full-fNR.png
+    - assets/page-1/images/logomakr-7nheie-1-7WR.png
+    - assets/page-1/images/arrow-search-JMw.png
+    - assets/page-1/images/logomakr-7nheie-1-jDT.png
+    - assets/page-1/images/arrow-search-xCR.png
+    - assets/page-1/images/vector-tth.png
+    - assets/page-1/images/signal-xKK.png
+    - assets/page-1/images/vector-QjT.png
+    - assets/page-1/images/wifi-orq.png
+    - assets/page-1/images/line-regular-yi9.png
+    - assets/page-1/images/arrow-search-wY5.png
+    - assets/page-1/images/wifi-X9K.png
+    - assets/page-1/images/vector-FWy.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
